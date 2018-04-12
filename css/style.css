@@ -1,4 +1,143 @@
-.my-nav {
+.container-fluid {
+	max-width: 950px;
+}
+
+.col-md-12--centered {
 	display: flex;
 	justify-content: center;
+}
+
+.col-md-12 h1 {
+	font-family: "Alegreya", "Arial", serif;
+	font-size: 60px;
+	line-height: 21px;
+	font-weight: 700;
+	letter-spacing: 0.025em;
+	color: #333333;
+}
+
+.col-md-12 small {
+	font-family: "Gentium Basic", "Arial", serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #333333;
+}
+
+.col-md-12 .nav a {
+	padding: 0 20px;
+}
+
+.nav-pills a {
+	background-color: transparent !important;
+	font-family: "Gentium Basic", "Arial", serif;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.slider div {
+	outline: none;
+}
+
+.slider img {
+	margin: 0 auto;
+}
+
+.col-md-4 .thumbnail {
+	border: none;
+	box-shadow: none;
+}
+
+.feature-title--star-icon {
+	padding-left: 70px;
+
+	background: url("../img/star-icon.png") no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+
+.feature-title--heart-icon {
+	padding-left: 70px;
+
+	background: url("../img/heart-icon.png") no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+
+.feature-title--screpa-icon {
+	padding-left: 70px;
+
+	background: url("../img/screpa-icon.png") no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+
+.slide-text {
+	font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 48px;
+	line-height: 30px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.wiki {
+	font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.025em;
+	color: #333333;
+}
+
+.feature-title,
+.item-title {
+	font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #333333;
+}
+
+.feature-desc,
+.item-desc {
+	font-family: "Nobile", "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #706f6f;
+}
+
+.item-date {
+	font-family: "Nobile", "Arial", sans-serif;
+	font-size: 11px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #aaaaaa;
+}
+
+.copyright {
+	font-family: "Nobile", "Arial", sans-serif;
+	font-size: 11px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #706f6f;
+}
+
+@media screen and (max-width: 640px) {
+	.slider img {
+		width: 80%;
+		height: auto;
+	}
 }

@@ -24,7 +24,6 @@
 
     position: absolute;
     top: 50%;
-    z-index: 10; /* arrows поверх и внутри слайдера. */
 
     display: block;
 
@@ -68,7 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 0; /* убрал родные стрелки 20px */
+    font-size: 20px;
     line-height: 1;
 
     opacity: .75;
@@ -78,150 +77,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-.promo-slider .slick-prev:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: -25px;
-    background: url(../img/l-arrow.png) no-repeat;
-    opacity: 0.6; /* добавил свои arrows end */
-}
-
-.promo-slider .slick-next:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: -25px;
-    background: url(../img/slide-arrow.png) no-repeat;
-    opacity: 0.6; /* добавил свои arrows end */
-}
-
-@media screen and (max-width: 660px) {
-    .promo-slider .slick-prev:before,
-    .promo-slider .slick-next:before {
-        display: none;
-    }
-}
-
-/* my arrows start */
-
-.slick-prev:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: -25px;
-    background: url(../img/l-arrow.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-.slick-next:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: -25px;
-    background: url(../img/slide-arrow.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-/* my arrows end */
-
-
-/* my arrows start */
-
-.teachers-slider .slick-prev:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: 25px;
-    background: url(../img/t-left-ar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-.teachers-slider .slick-next:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: 25px;
-    background: url(../img/t-right-ar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-/* my arrows end */
-
-.teachers-slider-descktop .slick-prev:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: 25px;
-    background: url(../img/t-left-ar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-.teachers-slider-descktop .slick-next:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 52px;
-    margin-top: 25px;
-    background: url(../img/t-right-ar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-.main-gallery-kids-slider .slick-prev:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 47px;
-    margin-top: -15px;
-    background: url(../img/kids/lftar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-.main-gallery-kids-slider .slick-next:before
-{
-    display: block; /* добавил свои arrows start */
-    width: 32px;
-    height: 47px;
-    margin-top: -15px;
-    background: url(../img/kids/rhtar.png) no-repeat;
-    opacity: 1; /* добавил свои arrows end */
-}
-
-/* my arrows end */
-
-
-
-
 .slick-prev
 {
-    left: -15px; /* левый arrow (-25px) */
-}
-
-.descktop-slider .slick-prev
-{
-   left: -40px; /* левый arrow (-25px) */
-}
-
-.teachers-slider .slick-prev
-{
-    left: 0; /* левый arrow (-25px) */
-}
-
-.teachers-slider-descktop .slick-prev{
-    left: 25px; /* левый arrow (-25px) */
-}
-
-.promo-slider .slick-prev
-{
-    left: 10px; /* левый arrow (-25px) */
+    left: -25px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -239,27 +97,7 @@
 
 .slick-next
 {
-    right: -3px; /* правый arrow (-25px) */
-}
-
-.descktop-slider .slick-next
-{
-   right: -25px; /* правый arrow (-25px) */
-}
-
-.promo-slider .slick-next
-{
-    right: 21px; /* правый arrow (-25px) */
-}
-
-.teachers-slider .slick-next
-{
-    right: 8px; /* правый arrow (-25px) */
-}
-
-.teachers-slider-descktop .slick-next
-{
-    right: 33px; /* левый arrow (-25px) */
+    right: -25px;
 }
 [dir='rtl'] .slick-next
 {
@@ -296,12 +134,6 @@
 
     text-align: center;
 }
-
- .promo-slider .my-dots
-{
-    bottom: 5px;
-}
-
 .slick-dots li
 {
     position: relative;
@@ -370,82 +202,3 @@
     opacity: .75;
     color: black;
 }
-
-
-/* my dots */
-
-.my-dots {
-  position: absolute;
-  bottom: -40px; /* положение */
-  left: 10px;
-  right: 10px;
-  display: block;
-  width: 80%;
-  padding: 0;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-}
-
-.my-dots li {
-  position: relative;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 9px 0 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.my-dots li:first-child {
-  margin-left: 12px;
-}
-
-.my-dots li button {
-  font-size: 0;
-  line-height: 0;
-  display: block;
-  width: 12px;
-  height: 12px;
-  padding: 5px;
-  cursor: pointer;
-  color: transparent;
-  border: 0;
-  /*border-radius: 50px; */
-  outline: none;
-  background: transparent;
-}
-
-.my-dots li button:hover,
-.my-dots li button:focus {
-  outline: none;
-  background: #af7535; /* наведение */
-}
-
-.my-dots li button:hover:before,
-.my-dots li button:focus:before {
-  opacity: 1;
-}
-
-.my-dots li button:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 12px;
-  height: 12px;
-  content: "";
-  text-align: center;
-  background-color: #ffffff; /* обычное состояние */
-  background-size: 100%;
-  background-position: center;
-  border: 1px solid #af7535;
-  /*border-radius: 50px; */
-  opacity: 1;
-}
-
-.my-dots li.slick-active button:before {
-  opacity: 1;
-  background: #af7535; /* активная */
-}
-
-/* my dots */
