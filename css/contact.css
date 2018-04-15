@@ -1,0 +1,27 @@
+.contact-form {
+	margin-bottom: 90px;
+}
+
+.form-btn {
+	padding: 5px 15px !important;
+
+	background-color: #444444;
+	border-radius: 0 !important;
+
+	font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #ffffff;
+}
+
+.form-btn:hover {
+	background-color: #66afe9;
+
+	color: #ffffff !important;
+}
+
+@media screen and (max-width: 640px) {
+
+}

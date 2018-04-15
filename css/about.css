@@ -1,0 +1,54 @@
+.about-title {
+	margin: 0;
+	margin-bottom: 80px;
+
+  font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 48px;
+	line-height: 30px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #333333 !important;
+	text-transform: uppercase;
+}
+
+.about-photo {
+	margin-bottom: 60px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+.about-text {
+	margin-bottom: 30px;
+
+  font-family: "Nobile", "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #444444;
+}
+
+.about-more {
+	margin-bottom: 90px;
+}
+
+.about-btn {
+	padding: 5px 15px !important;
+
+	background-color: #d6dce6;
+	border: 1px solid #e5e9ef;
+
+	font-family: "Gentium Book Basic", "Arial", serif;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #cc3300;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+
+}

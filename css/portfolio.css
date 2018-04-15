@@ -1,0 +1,19 @@
+.portfolio-row {
+	margin-bottom: 15px;
+}
+
+.more-posts {
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 640px) {
+	.portfolio-row {
+		margin-bottom: 0;
+	}
+
+	.portfolio-row img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+}
